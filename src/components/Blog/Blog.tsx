@@ -1,6 +1,6 @@
 import { Back } from "../common";
 import { RecentCard } from "../Home";
-import "../home/recent/recent.css";
+import "../Home/Recent/recent.css";
 
 const Blog = () => {
   return (

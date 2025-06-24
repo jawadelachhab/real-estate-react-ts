@@ -1,5 +1,5 @@
 import Back from "../common/Back";
-import "../home/featured/Featured.css";
+import "../Home/Featured/Featured.css";
 import { FeaturedCard } from "../Home";
 
 const Services = () => {
