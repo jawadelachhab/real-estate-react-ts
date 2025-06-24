@@ -1,6 +1,6 @@
 import Back from "../common/Back";
 import { PriceCard } from "../Home";
-import "../home/price/price.css";
+import "../Home/Price/price.css";
 
 const Pricing = () => {
   return (
