@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏠 RentUpSpace — Real Estate Rental & Listing website
 
-Currently, two official plugins are available:
+🔗 **Live Preview:** [Visit the Live Site](https://rentupspace.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**RentUpSpace** is a modern property rental and real estate listing platform built with **React + Vite + TypeScript**. It allows users to search, view, and list residential and commercial properties — all through a sleek, responsive, and user-friendly interface.
 
-## Expanding the ESLint configuration
+## 📸 Project Screenshot
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+/public/preview.png 
+```
+![CiyaTrip Screenshot](./public/preview.png)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Features
+
+- 🏘️ Featured and recent properties display
+- 🔍 Search by city, property type, and price range
+- 💳 Pricing plans with multiple tiers
+- 🧑‍💼 Agent profiles with contact options
+- 📍 Explore by location with images and stats
+- 🥇 Awards and trust badges
+- ⚡ Built using Vite for blazing-fast performance
+
+---
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Font Awesome](https://fontawesome.com/)
+- [SCSS / CSS Modules]
+
+---
+
+## 🧪 Getting Started
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/jawadelachhab/real-estate-react-ts.git
+cd real-estate-react-ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### Step 2: Install dependencies
+```bash
+npm install
 ```
+
+### Step 3: Run the development server
+```bash
+npm run dev
+```
+
+### Step 4: Build for production
+```bash
+npm run build
+```
+
+---
+
+## 🙌 Support This Project
+
+If you like this project, consider giving it a ⭐ on GitHub and following the account for more awesome projects!
+
+[👉 Follow me on GitHub](https://github.com/jawadelachhab)  
+[⭐ Star this repository](https://github.com/jawadelachhab/real-estate-react-ts)
+
+Thank you for your support! ❤️
