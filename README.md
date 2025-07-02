@@ -9,7 +9,7 @@
 
 /public/images/preview.png 
 ```
-![CiyaTrip Screenshot](./public/images/preview.png)
+![RentUpSpace Screenshot](./public/images/preview.png)
 
 ---
 
