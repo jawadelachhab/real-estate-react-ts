@@ -1,37 +1,36 @@
 
-# 🏠 RentUpSpace — Real Estate Rental & Listing website
+# Rent Up Space 🏡
 
 🔗 **Live Preview:** [Visit the Live Site](https://rentupspace.vercel.app/)
 
-**RentUpSpace** is a modern property rental and real estate listing platform built with **React + Vite + TypeScript**. It allows users to search, view, and list residential and commercial properties — all through a sleek, responsive, and user-friendly interface.
+
+**Rent Up Space** is a real estate rental website for homes, offices, and apartments. It offers listing views, easy browsing, and a clean interface for property searches.
 
 ## 📸 Project Screenshot
 
-/public/images/preview.png 
-```
-![RentUpSpace Screenshot](./public/images/preview.png)
+
+![Rent Up Space Screenshot](./public/rent-up-space.png)
 
 ---
 
 ## 🚀 Features
 
-- 🏘️ Featured and recent properties display
-- 🔍 Search by city, property type, and price range
-- 💳 Pricing plans with multiple tiers
-- 🧑‍💼 Agent profiles with contact options
-- 📍 Explore by location with images and stats
-- 🥇 Awards and trust badges
-- ⚡ Built using Vite for blazing-fast performance
+- 🏠 Beautiful property listings with images, prices, and locations  
+- 🔍 Advanced filters to search by property type, location, and price 
+- 🏢 Supports a variety of property types: homes, apartments, offices, villas  
+- 👥 Highlights trusted agents and flexible pricing options
+- 📱 Fully responsive for mobile, tablet, and desktop 
+
 
 ---
 
 ## 🛠️ Built With
 
 - [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
+- [Vite](https://vitejs.dev/) 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Font Awesome](https://fontawesome.com/)
-- [SCSS / CSS Modules]
+- [React Router DOM](https://reactrouter.com/)  
+- [React Slick](https://react-slick.neostack.com/)   
 
 ---
 
@@ -39,8 +38,8 @@
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/jawadelachhab/real-estate-react-ts.git
-cd real-estate-react-ts
+git clone https://github.com/jawadelachhab/rent-up-space-react-ts.git
+cd rent-up-space-react-ts
 ```
 
 ### Step 2: Install dependencies
@@ -65,6 +64,6 @@ npm run build
 If you like this project, consider giving it a ⭐ on GitHub and following the account for more awesome projects!
 
 [👉 Follow me on GitHub](https://github.com/jawadelachhab)  
-[⭐ Star this repository](https://github.com/jawadelachhab/real-estate-react-ts)
+[⭐ Star this repository](https://github.com/jawadelachhab/rent-up-space-react-ts)
 
 Thank you for your support! ❤️
